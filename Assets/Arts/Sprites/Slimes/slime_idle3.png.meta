@@ -181,7 +181,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -219,7 +219,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -260,10 +260,10 @@ TextureImporter:
       name: slime_idle3_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 455
-        width: 21
-        height: 18
+        x: 0
+        y: 432
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: slime_idle3_1
       rect:
         serializedVersion: 2
-        x: 102
-        y: 455
-        width: 21
-        height: 19
+        x: 80
+        y: 432
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,10 +304,10 @@ TextureImporter:
       name: slime_idle3_2
       rect:
         serializedVersion: 2
-        x: 183
-        y: 455
-        width: 21
-        height: 19
+        x: 160
+        y: 432
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +326,10 @@ TextureImporter:
       name: slime_idle3_3
       rect:
         serializedVersion: 2
-        x: 264
-        y: 455
-        width: 21
-        height: 19
+        x: 240
+        y: 432
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,10 +348,10 @@ TextureImporter:
       name: slime_idle3_4
       rect:
         serializedVersion: 2
-        x: 344
-        y: 455
-        width: 22
-        height: 19
+        x: 320
+        y: 432
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +370,10 @@ TextureImporter:
       name: slime_idle3_5
       rect:
         serializedVersion: 2
-        x: 424
-        y: 455
-        width: 21
-        height: 18
+        x: 400
+        y: 432
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,10 +392,10 @@ TextureImporter:
       name: slime_idle3_6
       rect:
         serializedVersion: 2
-        x: 503
-        y: 455
-        width: 21
-        height: 17
+        x: 480
+        y: 432
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,10 +414,10 @@ TextureImporter:
       name: slime_idle3_7
       rect:
         serializedVersion: 2
-        x: 23
-        y: 383
-        width: 21
-        height: 18
+        x: 0
+        y: 360
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +436,10 @@ TextureImporter:
       name: slime_idle3_8
       rect:
         serializedVersion: 2
-        x: 102
-        y: 383
-        width: 21
-        height: 19
+        x: 80
+        y: 360
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,10 +458,10 @@ TextureImporter:
       name: slime_idle3_9
       rect:
         serializedVersion: 2
-        x: 183
-        y: 383
-        width: 21
-        height: 19
+        x: 160
+        y: 360
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,10 +480,10 @@ TextureImporter:
       name: slime_idle3_10
       rect:
         serializedVersion: 2
-        x: 264
-        y: 383
-        width: 21
-        height: 19
+        x: 240
+        y: 360
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,10 +502,10 @@ TextureImporter:
       name: slime_idle3_11
       rect:
         serializedVersion: 2
-        x: 344
-        y: 383
-        width: 22
-        height: 19
+        x: 320
+        y: 360
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,10 +524,10 @@ TextureImporter:
       name: slime_idle3_12
       rect:
         serializedVersion: 2
-        x: 424
-        y: 383
-        width: 21
-        height: 18
+        x: 400
+        y: 360
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,10 +546,10 @@ TextureImporter:
       name: slime_idle3_13
       rect:
         serializedVersion: 2
-        x: 503
-        y: 383
-        width: 21
-        height: 17
+        x: 480
+        y: 360
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -568,10 +568,10 @@ TextureImporter:
       name: slime_idle3_14
       rect:
         serializedVersion: 2
-        x: 23
-        y: 311
-        width: 21
-        height: 18
+        x: 0
+        y: 288
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,10 +590,10 @@ TextureImporter:
       name: slime_idle3_15
       rect:
         serializedVersion: 2
-        x: 102
-        y: 311
-        width: 21
-        height: 19
+        x: 80
+        y: 288
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,10 +612,10 @@ TextureImporter:
       name: slime_idle3_16
       rect:
         serializedVersion: 2
-        x: 183
-        y: 311
-        width: 21
-        height: 19
+        x: 160
+        y: 288
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,10 +634,10 @@ TextureImporter:
       name: slime_idle3_17
       rect:
         serializedVersion: 2
-        x: 264
-        y: 311
-        width: 21
-        height: 19
+        x: 240
+        y: 288
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,10 +656,10 @@ TextureImporter:
       name: slime_idle3_18
       rect:
         serializedVersion: 2
-        x: 344
-        y: 311
-        width: 22
-        height: 19
+        x: 320
+        y: 288
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -678,10 +678,10 @@ TextureImporter:
       name: slime_idle3_19
       rect:
         serializedVersion: 2
-        x: 424
-        y: 311
-        width: 21
-        height: 18
+        x: 400
+        y: 288
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -700,10 +700,10 @@ TextureImporter:
       name: slime_idle3_20
       rect:
         serializedVersion: 2
-        x: 503
-        y: 311
-        width: 21
-        height: 17
+        x: 480
+        y: 288
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -722,10 +722,10 @@ TextureImporter:
       name: slime_idle3_21
       rect:
         serializedVersion: 2
-        x: 23
-        y: 239
-        width: 21
-        height: 18
+        x: 0
+        y: 216
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -744,10 +744,10 @@ TextureImporter:
       name: slime_idle3_22
       rect:
         serializedVersion: 2
-        x: 102
-        y: 239
-        width: 21
-        height: 19
+        x: 80
+        y: 216
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -766,10 +766,10 @@ TextureImporter:
       name: slime_idle3_23
       rect:
         serializedVersion: 2
-        x: 183
-        y: 239
-        width: 21
-        height: 19
+        x: 160
+        y: 216
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -788,10 +788,10 @@ TextureImporter:
       name: slime_idle3_24
       rect:
         serializedVersion: 2
-        x: 264
-        y: 239
-        width: 21
-        height: 19
+        x: 240
+        y: 216
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -810,10 +810,10 @@ TextureImporter:
       name: slime_idle3_25
       rect:
         serializedVersion: 2
-        x: 344
-        y: 239
-        width: 22
-        height: 19
+        x: 320
+        y: 216
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -832,10 +832,10 @@ TextureImporter:
       name: slime_idle3_26
       rect:
         serializedVersion: 2
-        x: 424
-        y: 239
-        width: 21
-        height: 18
+        x: 400
+        y: 216
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -854,10 +854,10 @@ TextureImporter:
       name: slime_idle3_27
       rect:
         serializedVersion: 2
-        x: 503
-        y: 239
-        width: 21
-        height: 17
+        x: 480
+        y: 216
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -876,10 +876,10 @@ TextureImporter:
       name: slime_idle3_28
       rect:
         serializedVersion: 2
-        x: 23
-        y: 167
-        width: 21
-        height: 18
+        x: 0
+        y: 144
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -898,10 +898,10 @@ TextureImporter:
       name: slime_idle3_29
       rect:
         serializedVersion: 2
-        x: 102
-        y: 167
-        width: 21
-        height: 19
+        x: 80
+        y: 144
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -920,10 +920,10 @@ TextureImporter:
       name: slime_idle3_30
       rect:
         serializedVersion: 2
-        x: 183
-        y: 167
-        width: 21
-        height: 19
+        x: 160
+        y: 144
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -942,10 +942,10 @@ TextureImporter:
       name: slime_idle3_31
       rect:
         serializedVersion: 2
-        x: 264
-        y: 167
-        width: 21
-        height: 19
+        x: 240
+        y: 144
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -964,10 +964,10 @@ TextureImporter:
       name: slime_idle3_32
       rect:
         serializedVersion: 2
-        x: 344
-        y: 167
-        width: 22
-        height: 19
+        x: 320
+        y: 144
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -986,10 +986,10 @@ TextureImporter:
       name: slime_idle3_33
       rect:
         serializedVersion: 2
-        x: 424
-        y: 167
-        width: 21
-        height: 18
+        x: 400
+        y: 144
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1008,10 +1008,10 @@ TextureImporter:
       name: slime_idle3_34
       rect:
         serializedVersion: 2
-        x: 503
-        y: 167
-        width: 21
-        height: 17
+        x: 480
+        y: 144
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1030,10 +1030,10 @@ TextureImporter:
       name: slime_idle3_35
       rect:
         serializedVersion: 2
-        x: 23
-        y: 95
-        width: 21
-        height: 18
+        x: 0
+        y: 72
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1052,10 +1052,10 @@ TextureImporter:
       name: slime_idle3_36
       rect:
         serializedVersion: 2
-        x: 102
-        y: 95
-        width: 21
-        height: 19
+        x: 80
+        y: 72
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1074,10 +1074,10 @@ TextureImporter:
       name: slime_idle3_37
       rect:
         serializedVersion: 2
-        x: 183
-        y: 95
-        width: 21
-        height: 19
+        x: 160
+        y: 72
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1096,10 +1096,10 @@ TextureImporter:
       name: slime_idle3_38
       rect:
         serializedVersion: 2
-        x: 264
-        y: 95
-        width: 21
-        height: 19
+        x: 240
+        y: 72
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1118,10 +1118,10 @@ TextureImporter:
       name: slime_idle3_39
       rect:
         serializedVersion: 2
-        x: 344
-        y: 95
-        width: 22
-        height: 19
+        x: 320
+        y: 72
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1140,10 +1140,10 @@ TextureImporter:
       name: slime_idle3_40
       rect:
         serializedVersion: 2
-        x: 424
-        y: 95
-        width: 21
-        height: 18
+        x: 400
+        y: 72
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1162,10 +1162,10 @@ TextureImporter:
       name: slime_idle3_41
       rect:
         serializedVersion: 2
-        x: 503
-        y: 95
-        width: 21
-        height: 17
+        x: 480
+        y: 72
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1184,10 +1184,10 @@ TextureImporter:
       name: slime_idle3_42
       rect:
         serializedVersion: 2
-        x: 23
-        y: 23
-        width: 21
-        height: 18
+        x: 0
+        y: 0
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1206,10 +1206,10 @@ TextureImporter:
       name: slime_idle3_43
       rect:
         serializedVersion: 2
-        x: 102
-        y: 23
-        width: 21
-        height: 19
+        x: 80
+        y: 0
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1228,10 +1228,10 @@ TextureImporter:
       name: slime_idle3_44
       rect:
         serializedVersion: 2
-        x: 183
-        y: 23
-        width: 21
-        height: 19
+        x: 160
+        y: 0
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1250,10 +1250,10 @@ TextureImporter:
       name: slime_idle3_45
       rect:
         serializedVersion: 2
-        x: 264
-        y: 23
-        width: 21
-        height: 19
+        x: 240
+        y: 0
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1272,10 +1272,10 @@ TextureImporter:
       name: slime_idle3_46
       rect:
         serializedVersion: 2
-        x: 344
-        y: 23
-        width: 22
-        height: 19
+        x: 320
+        y: 0
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1294,10 +1294,10 @@ TextureImporter:
       name: slime_idle3_47
       rect:
         serializedVersion: 2
-        x: 424
-        y: 23
-        width: 21
-        height: 18
+        x: 400
+        y: 0
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1316,10 +1316,10 @@ TextureImporter:
       name: slime_idle3_48
       rect:
         serializedVersion: 2
-        x: 503
-        y: 23
-        width: 21
-        height: 17
+        x: 480
+        y: 0
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1338,7 +1338,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8e83f9a392d670248b692027ed071a09
     internalID: 0
     vertices: []
     indices: 
@@ -1346,7 +1346,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":7.0},"gridSpriteSize":{"x":80.0,"y":72.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       slime_idle3_0: -5517731281570455347
       slime_idle3_1: -2050009765582937728

@@ -181,7 +181,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -195,7 +195,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -219,7 +219,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -260,10 +260,10 @@ TextureImporter:
       name: slime_move_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 455
-        width: 21
-        height: 17
+        x: 0
+        y: 432
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: slime_move_1
       rect:
         serializedVersion: 2
-        x: 104
-        y: 455
-        width: 21
-        height: 18
+        x: 80
+        y: 432
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,10 +304,10 @@ TextureImporter:
       name: slime_move_2
       rect:
         serializedVersion: 2
-        x: 184
-        y: 455
-        width: 22
-        height: 19
+        x: 160
+        y: 432
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +326,10 @@ TextureImporter:
       name: slime_move_3
       rect:
         serializedVersion: 2
-        x: 264
-        y: 455
-        width: 23
-        height: 20
+        x: 240
+        y: 432
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,10 +348,10 @@ TextureImporter:
       name: slime_move_4
       rect:
         serializedVersion: 2
-        x: 344
-        y: 455
-        width: 23
-        height: 19
+        x: 320
+        y: 432
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +370,10 @@ TextureImporter:
       name: slime_move_5
       rect:
         serializedVersion: 2
-        x: 426
-        y: 455
-        width: 21
-        height: 19
+        x: 400
+        y: 432
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,10 +392,10 @@ TextureImporter:
       name: slime_move_6
       rect:
         serializedVersion: 2
-        x: 505
-        y: 455
-        width: 21
-        height: 18
+        x: 480
+        y: 432
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,10 +414,10 @@ TextureImporter:
       name: slime_move_7
       rect:
         serializedVersion: 2
-        x: 23
-        y: 383
-        width: 21
-        height: 17
+        x: 0
+        y: 360
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +436,10 @@ TextureImporter:
       name: slime_move_8
       rect:
         serializedVersion: 2
-        x: 104
-        y: 383
-        width: 21
-        height: 18
+        x: 80
+        y: 360
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,10 +458,10 @@ TextureImporter:
       name: slime_move_9
       rect:
         serializedVersion: 2
-        x: 184
-        y: 383
-        width: 22
-        height: 19
+        x: 160
+        y: 360
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,10 +480,10 @@ TextureImporter:
       name: slime_move_10
       rect:
         serializedVersion: 2
-        x: 264
-        y: 383
-        width: 23
-        height: 20
+        x: 240
+        y: 360
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,10 +502,10 @@ TextureImporter:
       name: slime_move_11
       rect:
         serializedVersion: 2
-        x: 344
-        y: 383
-        width: 23
-        height: 19
+        x: 320
+        y: 360
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,10 +524,10 @@ TextureImporter:
       name: slime_move_12
       rect:
         serializedVersion: 2
-        x: 426
-        y: 383
-        width: 21
-        height: 19
+        x: 400
+        y: 360
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,10 +546,10 @@ TextureImporter:
       name: slime_move_13
       rect:
         serializedVersion: 2
-        x: 505
-        y: 383
-        width: 21
-        height: 18
+        x: 480
+        y: 360
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -568,10 +568,10 @@ TextureImporter:
       name: slime_move_14
       rect:
         serializedVersion: 2
-        x: 23
-        y: 311
-        width: 21
-        height: 17
+        x: 0
+        y: 288
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,10 +590,10 @@ TextureImporter:
       name: slime_move_15
       rect:
         serializedVersion: 2
-        x: 104
-        y: 311
-        width: 21
-        height: 18
+        x: 80
+        y: 288
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,10 +612,10 @@ TextureImporter:
       name: slime_move_16
       rect:
         serializedVersion: 2
-        x: 184
-        y: 311
-        width: 22
-        height: 19
+        x: 160
+        y: 288
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,10 +634,10 @@ TextureImporter:
       name: slime_move_17
       rect:
         serializedVersion: 2
-        x: 264
-        y: 311
-        width: 23
-        height: 20
+        x: 240
+        y: 288
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,10 +656,10 @@ TextureImporter:
       name: slime_move_18
       rect:
         serializedVersion: 2
-        x: 344
-        y: 311
-        width: 23
-        height: 19
+        x: 320
+        y: 288
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -678,10 +678,10 @@ TextureImporter:
       name: slime_move_19
       rect:
         serializedVersion: 2
-        x: 426
-        y: 311
-        width: 21
-        height: 19
+        x: 400
+        y: 288
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -700,10 +700,10 @@ TextureImporter:
       name: slime_move_20
       rect:
         serializedVersion: 2
-        x: 505
-        y: 311
-        width: 21
-        height: 18
+        x: 480
+        y: 288
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -722,10 +722,10 @@ TextureImporter:
       name: slime_move_21
       rect:
         serializedVersion: 2
-        x: 23
-        y: 239
-        width: 21
-        height: 17
+        x: 0
+        y: 216
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -744,10 +744,10 @@ TextureImporter:
       name: slime_move_22
       rect:
         serializedVersion: 2
-        x: 104
-        y: 239
-        width: 21
-        height: 18
+        x: 80
+        y: 216
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -766,10 +766,10 @@ TextureImporter:
       name: slime_move_23
       rect:
         serializedVersion: 2
-        x: 184
-        y: 239
-        width: 22
-        height: 19
+        x: 160
+        y: 216
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -788,10 +788,10 @@ TextureImporter:
       name: slime_move_24
       rect:
         serializedVersion: 2
-        x: 264
-        y: 239
-        width: 23
-        height: 20
+        x: 240
+        y: 216
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -810,10 +810,10 @@ TextureImporter:
       name: slime_move_25
       rect:
         serializedVersion: 2
-        x: 344
-        y: 239
-        width: 23
-        height: 19
+        x: 320
+        y: 216
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -832,10 +832,10 @@ TextureImporter:
       name: slime_move_26
       rect:
         serializedVersion: 2
-        x: 426
-        y: 239
-        width: 21
-        height: 19
+        x: 400
+        y: 216
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -854,10 +854,10 @@ TextureImporter:
       name: slime_move_27
       rect:
         serializedVersion: 2
-        x: 505
-        y: 239
-        width: 21
-        height: 18
+        x: 480
+        y: 216
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -876,10 +876,10 @@ TextureImporter:
       name: slime_move_28
       rect:
         serializedVersion: 2
-        x: 23
-        y: 167
-        width: 21
-        height: 17
+        x: 0
+        y: 144
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -898,10 +898,10 @@ TextureImporter:
       name: slime_move_29
       rect:
         serializedVersion: 2
-        x: 104
-        y: 167
-        width: 21
-        height: 18
+        x: 80
+        y: 144
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -920,10 +920,10 @@ TextureImporter:
       name: slime_move_30
       rect:
         serializedVersion: 2
-        x: 184
-        y: 167
-        width: 22
-        height: 19
+        x: 160
+        y: 144
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -942,10 +942,10 @@ TextureImporter:
       name: slime_move_31
       rect:
         serializedVersion: 2
-        x: 264
-        y: 167
-        width: 23
-        height: 20
+        x: 240
+        y: 144
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -964,10 +964,10 @@ TextureImporter:
       name: slime_move_32
       rect:
         serializedVersion: 2
-        x: 344
-        y: 167
-        width: 23
-        height: 19
+        x: 320
+        y: 144
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -986,10 +986,10 @@ TextureImporter:
       name: slime_move_33
       rect:
         serializedVersion: 2
-        x: 426
-        y: 167
-        width: 21
-        height: 19
+        x: 400
+        y: 144
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1008,10 +1008,10 @@ TextureImporter:
       name: slime_move_34
       rect:
         serializedVersion: 2
-        x: 505
-        y: 167
-        width: 21
-        height: 18
+        x: 480
+        y: 144
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1030,10 +1030,10 @@ TextureImporter:
       name: slime_move_35
       rect:
         serializedVersion: 2
-        x: 23
-        y: 95
-        width: 21
-        height: 17
+        x: 0
+        y: 72
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1052,10 +1052,10 @@ TextureImporter:
       name: slime_move_36
       rect:
         serializedVersion: 2
-        x: 104
-        y: 95
-        width: 21
-        height: 18
+        x: 80
+        y: 72
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1074,10 +1074,10 @@ TextureImporter:
       name: slime_move_37
       rect:
         serializedVersion: 2
-        x: 184
-        y: 95
-        width: 22
-        height: 19
+        x: 160
+        y: 72
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1096,10 +1096,10 @@ TextureImporter:
       name: slime_move_38
       rect:
         serializedVersion: 2
-        x: 264
-        y: 95
-        width: 23
-        height: 20
+        x: 240
+        y: 72
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1118,10 +1118,10 @@ TextureImporter:
       name: slime_move_39
       rect:
         serializedVersion: 2
-        x: 344
-        y: 95
-        width: 23
-        height: 19
+        x: 320
+        y: 72
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1140,10 +1140,10 @@ TextureImporter:
       name: slime_move_40
       rect:
         serializedVersion: 2
-        x: 426
-        y: 95
-        width: 21
-        height: 19
+        x: 400
+        y: 72
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1162,10 +1162,10 @@ TextureImporter:
       name: slime_move_41
       rect:
         serializedVersion: 2
-        x: 505
-        y: 95
-        width: 21
-        height: 18
+        x: 480
+        y: 72
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1184,10 +1184,10 @@ TextureImporter:
       name: slime_move_42
       rect:
         serializedVersion: 2
-        x: 23
-        y: 23
-        width: 21
-        height: 17
+        x: 0
+        y: 0
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1206,10 +1206,10 @@ TextureImporter:
       name: slime_move_43
       rect:
         serializedVersion: 2
-        x: 104
-        y: 23
-        width: 21
-        height: 18
+        x: 80
+        y: 0
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1228,10 +1228,10 @@ TextureImporter:
       name: slime_move_44
       rect:
         serializedVersion: 2
-        x: 184
-        y: 23
-        width: 22
-        height: 19
+        x: 160
+        y: 0
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1250,10 +1250,10 @@ TextureImporter:
       name: slime_move_45
       rect:
         serializedVersion: 2
-        x: 264
-        y: 23
-        width: 23
-        height: 20
+        x: 240
+        y: 0
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1272,10 +1272,10 @@ TextureImporter:
       name: slime_move_46
       rect:
         serializedVersion: 2
-        x: 344
-        y: 23
-        width: 23
-        height: 19
+        x: 320
+        y: 0
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1294,10 +1294,10 @@ TextureImporter:
       name: slime_move_47
       rect:
         serializedVersion: 2
-        x: 426
-        y: 23
-        width: 21
-        height: 19
+        x: 400
+        y: 0
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1316,10 +1316,10 @@ TextureImporter:
       name: slime_move_48
       rect:
         serializedVersion: 2
-        x: 505
-        y: 23
-        width: 21
-        height: 18
+        x: 480
+        y: 0
+        width: 80
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1338,7 +1338,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8eeda978a6d5525439eff39bbd09ca3c
     internalID: 0
     vertices: []
     indices: 
@@ -1346,7 +1346,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":7.0},"gridSpriteSize":{"x":80.0,"y":72.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       slime_move_0: 4068390250358317898
       slime_move_1: -6537097002179028248
