@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6739735567364277578}
   - component: {fileID: 1285880818142588072}
   - component: {fileID: 1385405505839898575}
-  - component: {fileID: 8507353187758130976}
   - component: {fileID: 2553167698865968315}
   - component: {fileID: 6416174541394062726}
   m_Layer: 0
@@ -79,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: -7533832076562884281, guid: a47c1d876063269408b0908f36abcd2e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -103,37 +102,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a682f06d26c7ba94087e3792832dffc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
-  minTime: 3
-  maxTime: 6
-  maxHealth: 100
---- !u!50 &8507353187758130976
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2481760100445929119}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  enemyModel:
+    speed: 2
+    minTime: 3
+    maxTime: 6
+    maxHealth: 100
+    position:
+      x: 0
+      y: 0
+    Waypoints: []
 --- !u!95 &2553167698865968315
 Animator:
   serializedVersion: 7
