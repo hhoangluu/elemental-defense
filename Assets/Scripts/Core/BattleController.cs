@@ -13,19 +13,34 @@ namespace _ElementalDefense
 
         [SerializeField] private List<EnemyController> _spawnedEnemies;
         private List<EnemyController> spawnedEnemies => _spawnedEnemies;
+        private BattleSimulationSystem simulation;
 
-
-
+        void Awake()
+        {
+            simulation = new BattleSimulationSystem();
+        }
         public void SpawnEnemy()
         {
             var newEnemy = Instantiate(enemyPrefab);
-            newEnemy.Init(currentMap.mapNavigation.navPoints);
+            int id = simulation.AddEnemyModel(newEnemy.ToModel(), newEnemy);
+            newEnemy.SetId(id);
         }
 
         public void StartBattle()
         {
             spawnedEnemies.Clear();
+            simulation.SetMap(currentMap);
             StartCoroutine(SpawnEnemyCoroutine());
+        }
+
+        void Update()
+        {
+            if (GameManager.Instance.CurrentGameState == GameManager.GameState.Playing)
+            {
+                //SpawnEnemy();
+                simulation.Simulate(Time.deltaTime);
+                simulation.SyncBackToControllers();
+            }
         }
 
         IEnumerator SpawnEnemyCoroutine()
@@ -33,7 +48,8 @@ namespace _ElementalDefense
             while (GameManager.Instance.CurrentGameState == GameManager.GameState.Playing)
             {
                 SpawnEnemy();
-                yield return new WaitForSeconds(Random.Range(1, 2f));
+                // yield return new WaitForSeconds(Random.Range(0.f, 0.2f));
+                yield return null;
             }
         }
     }
