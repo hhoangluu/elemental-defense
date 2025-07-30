@@ -62,6 +62,8 @@ public struct EnemyModel
     public float currentHealth;
     public int currentWaypointIndex;
     public bool isAlive;
+    public bool reachedGoal;
+    internal float damageToPlayer;
 
     public bool ReachedGoal(int waypointCount) => currentWaypointIndex >= waypointCount;
 }

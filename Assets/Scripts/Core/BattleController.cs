@@ -48,8 +48,8 @@ namespace _ElementalDefense
             while (GameManager.Instance.CurrentGameState == GameManager.GameState.Playing)
             {
                 SpawnEnemy();
-                // yield return new WaitForSeconds(Random.Range(0.f, 0.2f));
-                yield return null;
+                yield return new WaitForSeconds(Random.Range(0.01f, 0.02f));
+                // yield return null;
             }
         }
     }

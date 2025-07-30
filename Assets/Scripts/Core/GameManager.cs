@@ -17,6 +17,9 @@ namespace _ElementalDefense
         public GameState CurrentGameState { get; private set; } = GameState.Prepare;
         [SerializeField] private GameObject startButton;
         [field: SerializeField] private BattleController battleController;
+        [SerializeField] private PlayerModel _playerModel;
+        public PlayerModel playerModel => _playerModel;
+
         public void Awake()
         {
             if (Instance == null)

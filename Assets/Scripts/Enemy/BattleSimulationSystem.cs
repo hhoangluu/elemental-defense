@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using _ElementalDefense;
 using Unity.Collections;
 using Unity.Jobs;
 using Unity.Mathematics;
@@ -63,8 +64,19 @@ public class BattleSimulationSystem
             deltaTime = deltaTime
         };
 
-        JobHandle handle = moveJob.Schedule(enemyModels.Length, 64);
-        handle.Complete();
+        JobHandle moveHandle = moveJob.Schedule(enemyModels.Length, 64);
+        moveHandle.Complete();
+        var towerAttackTempData = new NativeArray<TowerAttackData>(0, Allocator.TempJob);
+        var damageJob = new BattleDamageJob
+        {
+            enemies = enemyModels.AsDeferredJobArray(),
+            towerAttacks = towerAttackTempData,
+            playerModel = GameManager.Instance.playerModel
+        };
+
+        var damageHandle = damageJob.Schedule(moveHandle);
+        damageHandle.Complete();
+        towerAttackTempData.Dispose();
 
     }
 
@@ -91,8 +103,6 @@ public class BattleSimulationSystem
         enemyModels.Add(model);
         idToIndex[model.id] = enemyModels.Length - 1;
         idToController[model.id] = controller;
-        Debug.LogError("LENGHT" + enemyModels.Length);
-
         return model.id;
     }
 
