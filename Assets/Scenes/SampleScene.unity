@@ -642,6 +642,8 @@ MonoBehaviour:
   time: 31
   startButton: {fileID: 729246039}
   battleController: {fileID: 865445224}
+  _playerModel:
+    hp: 0
 --- !u!4 &603538669
 Transform:
   m_ObjectHideFlags: 0
@@ -1002,6 +1004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 865445225}
   - component: {fileID: 865445224}
+  - component: {fileID: 865445226}
   m_Layer: 0
   m_Name: BattleController
   m_TagString: Untagged
@@ -1024,6 +1027,7 @@ MonoBehaviour:
   _enemyPrefab: {fileID: 1385405505839898575, guid: 52e9039a164dc624181030a0c08a4ce3, type: 3}
   _currentMap: {fileID: 1169401595}
   _spawnedEnemies: []
+  towerPlacerController: {fileID: 865445226}
 --- !u!4 &865445225
 Transform:
   m_ObjectHideFlags: 0
@@ -1039,6 +1043,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &865445226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865445223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b885380cea634303b10ce362ef7f869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerPrefab: {fileID: 1495675163637386280, guid: 562b19f565ae945bc9ab9a46c371cab7, type: 3}
 --- !u!1 &887407211
 GameObject:
   m_ObjectHideFlags: 0
@@ -1440,6 +1457,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _mapNavigation: {fileID: 1761308647}
+  _mapHeight: 10
+  _mapWidth: 10
 --- !u!1 &1171418260
 GameObject:
   m_ObjectHideFlags: 0

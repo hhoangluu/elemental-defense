@@ -14,6 +14,7 @@ namespace _ElementalDefense
         [SerializeField] private List<EnemyController> _spawnedEnemies;
         private List<EnemyController> spawnedEnemies => _spawnedEnemies;
         private BattleSimulationSystem simulation;
+        [SerializeField] private TowerPlacerController towerPlacerController;
 
         void Awake()
         {
@@ -30,6 +31,7 @@ namespace _ElementalDefense
         {
             spawnedEnemies.Clear();
             simulation.SetMap(currentMap);
+            towerPlacerController.Init(currentMap.mapHeight, currentMap.mapWidth);
             StartCoroutine(SpawnEnemyCoroutine());
         }
 
@@ -48,7 +50,7 @@ namespace _ElementalDefense
             while (GameManager.Instance.CurrentGameState == GameManager.GameState.Playing)
             {
                 SpawnEnemy();
-                yield return new WaitForSeconds(Random.Range(0.01f, 0.02f));
+                yield return new WaitForSeconds(Random.Range(1f, 2f));
                 // yield return null;
             }
         }
