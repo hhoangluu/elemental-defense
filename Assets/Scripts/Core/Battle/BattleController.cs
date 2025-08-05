@@ -31,7 +31,7 @@ namespace _ElementalDefense
         {
             spawnedEnemies.Clear();
             simulation.SetMap(currentMap);
-            towerPlacerController.Init(currentMap.mapHeight, currentMap.mapWidth);
+            towerPlacerController.Init(currentMap);
             StartCoroutine(SpawnEnemyCoroutine());
         }
 

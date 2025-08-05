@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GridCell
@@ -5,6 +6,7 @@ public class GridCell
     public Vector2Int gridPos;
     public Vector3 worldPos;
     public bool isOccupied;
+    public bool isBlocked;
 }
 
 public class TowerGridSystem
@@ -29,7 +31,8 @@ public class TowerGridSystem
                 {
                     gridPos = new Vector2Int(x, y),
                     worldPos = worldPos,
-                    isOccupied = false
+                    isOccupied = false,
+                    isBlocked = false
                 };
             }
     }
@@ -40,10 +43,9 @@ public class TowerGridSystem
         placedCell = null;
 
         if (!IsInBounds(coord)) return false;
-
         var cell = grid[coord.x + width / 2, coord.y + height / 2];
         if (cell.isOccupied) return false;
-
+        if (cell.isBlocked) return false;
         cell.isOccupied = true;
         placedCell = cell;
         return true;
@@ -65,4 +67,28 @@ public class TowerGridSystem
     {
         return gridPos.x >= -width / 2 && gridPos.y >= -height / 2 && gridPos.x < width / 2 && gridPos.y < height / 2;
     }
+
+    public void BakeBlockedCells(List<Vector2> waypoints)
+    {
+        for (int i = 0; i < waypoints.Count - 1; i++)
+        {
+            Vector2 start = waypoints[i];
+            Vector2 end = waypoints[i + 1];
+            AddLineToBlockedCells(start, end);
+        }
+    }
+
+    void AddLineToBlockedCells(Vector2 start, Vector2 end)
+    {
+        float distance = Vector2.Distance(start, end);
+        int steps = Mathf.CeilToInt(distance); // lấy mẫu đường đi
+        for (int i = 0; i <= steps; i++)
+        {
+            Vector2 point = Vector2.Lerp(start, end, i / (float)steps);
+            var coord = WorldToGrid(point);
+            var cell = grid[coord.x + width / 2, coord.y + height / 2];
+            cell.isBlocked = true;
+        }
+    }
+
 }
