@@ -14,7 +14,7 @@ public class TowerGridSystem
     private int width;
     private int height;
     private float cellSize;
-    private GridCell[,] grid;
+    public GridCell[,] grid { get; private set; }
 
     public TowerGridSystem(int width, int height, float cellSize, Vector3 origin)
     {

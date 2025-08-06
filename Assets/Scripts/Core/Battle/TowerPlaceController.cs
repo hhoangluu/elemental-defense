@@ -8,11 +8,14 @@ public class TowerPlacerController : MonoBehaviour
 {
     public TowerGridSystem gridSystem;
     public GameObject towerPrefab;
+    public GridVisualizer gridVisualizer;
     public void Init(Map map)
     {
         gridSystem = new TowerGridSystem(map.mapHeight, map.mapWidth, 1f, Vector3.zero);
         List<Vector2> navPoints = map.mapNavigation.navPoints.Select(x => (Vector2)x.position).ToList();
         gridSystem.BakeBlockedCells(navPoints);
+        gridVisualizer.Init(gridSystem.grid);
+        gridVisualizer.SetEnable(false);
     }
 
     void Update()
